@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# download_script.sh
-
 download_file() {
     url=$1
     directory=$2
@@ -17,6 +15,3 @@ download_file() {
 
     echo "File downloaded to $directory/$file_name"
 }
-
-# Example usage:
-download_file "http://example.com/myfile.txt" "/path/to/directory"
